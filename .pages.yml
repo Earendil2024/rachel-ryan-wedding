@@ -1,0 +1,335 @@
+media:
+  - name: images
+    label: Site images
+    input: media/site
+    output: media/site
+    extensions: [png, jpg, jpeg, webp, gif, svg]
+
+components:
+  event:
+    type: object
+    label: Wedding event
+    fields:
+      - name: title
+        label: Event title
+        type: string
+      - name: venue
+        label: Venue
+        type: string
+      - name: location
+        label: City and state
+        type: string
+      - name: time
+        label: Time
+        type: string
+  person:
+    type: object
+    label: Wedding party member
+    fields:
+      - name: name
+        type: string
+      - name: role
+        type: string
+      - name: note
+        label: Short note
+        type: text
+  question:
+    type: object
+    label: Question and answer
+    fields:
+      - name: question
+        type: string
+      - name: answer
+        type: text
+      - name: linkLabel
+        label: Optional link text
+        type: string
+      - name: linkUrl
+        label: Optional link URL
+        type: string
+  place:
+    type: object
+    label: Place
+    fields:
+      - name: name
+        type: string
+      - name: address
+        type: string
+      - name: phone
+        type: string
+      - name: description
+        type: text
+      - name: website
+        type: string
+      - name: image
+        label: Photo (portrait crops look best)
+        type: image
+        options:
+          media: images
+          path: .
+
+content:
+  - name: website
+    label: Website content
+    type: file
+    path: content/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: site
+        label: Wedding details and links
+        type: object
+        fields:
+          - name: names
+            label: Names / header text
+            type: string
+          - name: date
+            label: Wedding date
+            type: date
+          - name: city
+            label: City and state
+            type: string
+          - name: rsvpUrl
+            label: RSVP destination (opens a new tab)
+            type: string
+          - name: registryUrl
+            label: Registry destination (opens a new tab)
+            type: string
+          - name: logoImage
+            label: Horizontal logo image
+            description: Optional. Choose a wide logo image. Leave blank to show the reserved logo space.
+            type: image
+            options:
+              media: images
+          - name: logoAlt
+            label: Logo description
+            type: string
+          - name: colors
+            label: Wedding colors
+            type: object
+            fields:
+              - name: sage
+                label: Sage green
+                type: string
+              - name: peach
+                label: Warm peach
+                type: string
+              - name: leaf
+                label: Leaf green
+                type: string
+      - name: home
+        label: Home page
+        type: object
+        fields:
+          - name: backgroundImage
+            label: Steady home background photo
+            type: image
+            options:
+              media: images
+              path: .
+          - name: heroPhotos
+            label: Rotating portrait photos
+            type: image
+            list:
+              min: 1
+            options:
+              media: images
+          - name: intro
+            label: Welcome message
+            type: text
+          - name: closingNote
+            label: Text beneath the Celtic knot
+            type: text
+          - name: quote
+            label: Scripture quote
+            type: text
+          - name: quoteAttribution
+            label: Quote attribution
+            type: string
+          - name: events
+            label: Ceremony and reception
+            type: object
+            list:
+              min: 1
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                type: string
+              - name: venue
+                type: string
+              - name: location
+                type: string
+              - name: time
+                type: string
+      - name: pages
+        label: Other pages
+        type: object
+        fields:
+          - name: party
+            label: Wedding Party
+            type: object
+            fields:
+              - name: title
+                type: string
+              - name: subtitle
+                type: string
+              - name: bannerImage
+                label: Sage-tinted banner photo
+                type: image
+                options:
+                  media: images
+              - name: intro
+                type: text
+              - name: people
+                label: Wedding party members
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name} — {role}"
+                fields:
+                  - name: name
+                    type: string
+                  - name: role
+                    type: string
+                  - name: note
+                    type: text
+          - name: qa
+            label: Q + A
+            type: object
+            fields:
+              - name: title
+                type: string
+              - name: subtitle
+                type: string
+              - name: bannerImage
+                label: Sage-tinted banner photo
+                type: image
+                options:
+                  media: images
+              - name: items
+                label: Questions and answers
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{question}"
+                fields:
+                  - name: question
+                    type: string
+                  - name: answer
+                    type: text
+                  - name: linkLabel
+                    type: string
+                  - name: linkUrl
+                    type: string
+          - name: travel
+            label: Travel
+            type: object
+            fields:
+              - name: title
+                type: string
+              - name: subtitle
+                type: string
+              - name: bannerImage
+                label: Sage-tinted banner photo
+                type: image
+                options:
+                  media: images
+              - name: intro
+                type: text
+              - name: hotels
+                label: Hotels
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name}"
+                fields:
+                  - name: name
+                    type: string
+                  - name: address
+                    type: string
+                  - name: phone
+                    type: string
+                  - name: description
+                    type: text
+                  - name: website
+                    type: string
+                  - name: image
+                    label: Photo
+                    type: image
+                    options:
+                      media: images
+          - name: guide
+            label: R&R’s Guide to RDU
+            type: object
+            fields:
+              - name: title
+                type: string
+              - name: subtitle
+                type: string
+              - name: bannerImage
+                label: Sage-tinted banner photo
+                type: image
+                options:
+                  media: images
+              - name: intro
+                type: text
+              - name: things
+                label: Things to do
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name}"
+                fields:
+                  - name: name
+                    type: string
+                  - name: address
+                    type: string
+                  - name: phone
+                    type: string
+                  - name: description
+                    type: text
+                  - name: website
+                    type: string
+                  - name: image
+                    label: Portrait photo
+                    type: image
+                    options:
+                      media: images
+              - name: restaurants
+                label: Where to eat
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name}"
+                fields:
+                  - name: name
+                    type: string
+                  - name: address
+                    type: string
+                  - name: phone
+                    type: string
+                  - name: description
+                    type: text
+                  - name: website
+                    type: string
+                  - name: image
+                    label: Portrait photo
+                    type: image
+                    options:
+                      media: images
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      update: "Update wedding website content"
+
