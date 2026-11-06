@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 320" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 0C18 24 47 42 32 66S18 108 32 132 47 174 32 198 18 240 32 264 47 298 32 320" stroke="#87A96B" stroke-width="2"/>
+    <path d="M30 27C13 18 8 27 17 39c7 9 13 4 15-1m2 35c17-10 22-1 13 11-7 9-13 4-15-1m-2 34c-17-10-22-1-13 11 7 9 13 4 15-1m2 34c17-10 22-1 13 11-7 9-13 4-15-1m-2 34c-17-10-22-1-13 11 7 9 13 4 15-1m2 34c17-10 22-1 13 11-7 9-13 4-15-1m-2 34c-17-10-22-1-13 11 7 9 13 4 15-1" stroke="#87A96B" stroke-width="1.6"/>
+    <g stroke="#DE8E65" stroke-width="1.5" fill="#BDD99F">
+      <g transform="translate(32 54)"><ellipse cy="-9" rx="4" ry="7"/><ellipse cy="9" rx="4" ry="7"/><ellipse cx="-9" rx="7" ry="4"/><ellipse cx="9" rx="7" ry="4"/><circle r="3.5" fill="#DE8E65"/></g>
+      <g transform="translate(32 160)"><ellipse cy="-9" rx="4" ry="7"/><ellipse cy="9" rx="4" ry="7"/><ellipse cx="-9" rx="7" ry="4"/><ellipse cx="9" rx="7" ry="4"/><circle r="3.5" fill="#DE8E65"/></g>
+      <g transform="translate(32 266)"><ellipse cy="-9" rx="4" ry="7"/><ellipse cy="9" rx="4" ry="7"/><ellipse cx="-9" rx="7" ry="4"/><ellipse cx="9" rx="7" ry="4"/><circle r="3.5" fill="#DE8E65"/></g>
+    </g>
+  </g>
+</svg>

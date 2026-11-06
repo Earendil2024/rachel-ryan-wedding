@@ -1,0 +1,5 @@
+Anglican Text UNZ1L
+Font design by Dieter Steffmann; Unicode update by Peter Wiegel.
+Source: https://www.peter-wiegel.de/Anglican.html
+
+The designer's page states that this font is free for private use. A commercial-use license should be obtained from the designer (Steffmann) for commercial projects. This wedding website uses the font for a personal wedding site.

@@ -15,10 +15,10 @@
   },
   "home": {
     "intro": "You are cordially invited to the marriage ceremony and reception of Rachel Baldauf and Ryan Parker. The couple and their families would love to have you in attendance for this special and sacred day.",
-    "closingNote": "With joyful hearts, we look forward to celebrating this special day with our family and friends.",
     "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
     "quoteAttribution": "Genesis 2:24",
     "events": [
+<<<<<<< Updated upstream
       {
         "title": "Ceremony",
         "venue": "Treasuring Christ Church",
@@ -35,6 +35,10 @@
     "backgroundImage": "media/site/images.jpg",
     "heroPhotos": [
       "media/site/Screenshot 2026-09-26 184515.png"
+=======
+      { "title": "Ceremony", "venue": "Treasuring Christ Church", "location": "Raleigh, North Carolina", "time": "2:00 PM EST", "image": "" },
+      { "title": "Reception", "venue": "Borden Building & Fred Fletcher Amphitheater", "location": "Raleigh, North Carolina", "time": "4:00 PM EST", "image": "" }
+>>>>>>> Stashed changes
     ]
   },
   "pages": {
@@ -93,6 +97,17 @@
     "travel": {
       "title": "Travel",
       "subtitle": "A place to stay",
+<<<<<<< Updated upstream
+=======
+      "bannerImage": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1800&q=85",
+      "imageBannerPhotos": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=82",
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=82",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=82",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=82",
+        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=82"
+      ],
+>>>>>>> Stashed changes
       "intro": "Raleigh is part of the Research Triangle region, which includes Raleigh, Durham and Chapel Hill. The ceremony and reception are near downtown Raleigh and NC State. Here are a few nearby stays; book wherever you feel most at home.",
       "hotels": [
         {

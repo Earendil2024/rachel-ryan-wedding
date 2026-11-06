@@ -138,9 +138,6 @@ content:
           - name: intro
             label: Welcome message
             type: text
-          - name: closingNote
-            label: Text beneath the Celtic knot
-            type: text
           - name: quote
             label: Scripture quote
             type: text
@@ -164,6 +161,11 @@ content:
                 type: string
               - name: time
                 type: string
+              - name: image
+                label: Landscape venue photo
+                type: image
+                options:
+                  media: images
       - name: pages
         label: Other pages
         type: object
@@ -241,6 +243,13 @@ content:
                   media: images
               - name: intro
                 type: text
+              - name: imageBannerPhotos
+                label: Scrolling hotel image banner
+                type: image
+                list:
+                  min: 1
+                options:
+                  media: images
               - name: hotels
                 label: Hotels
                 type: object
