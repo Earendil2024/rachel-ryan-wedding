@@ -5,7 +5,7 @@
     "city": "Raleigh, North Carolina",
     "rsvpUrl": "https://www.rsvpify.com/",
     "registryUrl": "https://withjoy.com/",
-    "logoImage": "",
+    "logoImage": "media/site/Logo.png",
     "logoAlt": "Wedding logo",
     "colors": {
       "sage": "#BDD99F",
@@ -14,88 +14,261 @@
     }
   },
   "home": {
-    "backgroundImage": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=2000&q=85",
-    "heroPhotos": [
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=88",
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=88",
-      "https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1600&q=88",
-      "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1600&q=88"
-    ],
     "intro": "You are cordially invited to the marriage ceremony and reception of Rachel Baldauf and Ryan Parker. The couple and their families would love to have you in attendance for this special and sacred day.",
     "closingNote": "With joyful hearts, we look forward to celebrating this special day with our family and friends.",
     "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
     "quoteAttribution": "Genesis 2:24",
     "events": [
-      { "title": "Ceremony", "venue": "Treasuring Christ Church", "location": "Raleigh, North Carolina", "time": "2:00 PM EST" },
-      { "title": "Reception", "venue": "Borden Building & Fred Fletcher Amphitheater", "location": "Raleigh, North Carolina", "time": "4:00 PM EST" }
+      {
+        "title": "Ceremony",
+        "venue": "Treasuring Christ Church",
+        "location": "Raleigh, North Carolina",
+        "time": "2:00 PM EST"
+      },
+      {
+        "title": "Reception",
+        "venue": "Borden Building & Fred Fletcher Amphitheater",
+        "location": "Raleigh, North Carolina",
+        "time": "4:00 PM EST"
+      }
     ]
   },
   "pages": {
     "party": {
       "title": "Wedding Party",
       "subtitle": "The people we love",
-      "bannerImage": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=85",
       "intro": "We’re so grateful to be surrounded by our favorite people as we begin this next chapter.",
       "people": [
-        { "name": "Brady Parker", "role": "Best Man", "note": "Brother to the groom and best Madden/2K player in the Parker clan" },
-        { "name": "Beatrice Sanders", "role": "Maid of Honor", "note": "" },
-        { "name": "Stephanie Friedman", "role": "Bridesmaid", "note": "" },
-        { "name": "Willow Vander Kooi", "role": "Bridesmaid", "note": "" },
-        { "name": "Isabel Magdaleno", "role": "Bridesmaid", "note": "" },
-        { "name": "Sofia Villanueva", "role": "Bridesmaid", "note": "" },
-        { "name": "Anna Fox", "role": "Bridesmaid", "note": "" }
+        {
+          "name": "Brady Parker",
+          "role": "Best Man",
+          "note": "Brother to the groom and best Madden/2K player in the Parker clan"
+        },
+        {
+          "name": "Beatrice Sanders",
+          "role": "Maid of Honor"
+        },
+        {
+          "name": "Stephanie Friedman",
+          "role": "Bridesmaid"
+        },
+        {
+          "name": "Willow Vander Kooi",
+          "role": "Bridesmaid"
+        },
+        {
+          "name": "Isabel Magdaleno",
+          "role": "Bridesmaid"
+        },
+        {
+          "name": "Sofia Villanueva",
+          "role": "Bridesmaid"
+        },
+        {
+          "name": "Anna Fox",
+          "role": "Bridesmaid"
+        }
       ]
     },
     "qa": {
       "title": "Q + A",
       "subtitle": "A few helpful details",
-      "bannerImage": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1800&q=85",
       "items": [
-        { "question": "WHAT IS THE DRESS CODE?", "answer": "The dress code is semi-formal! We trust y’all to wear what you want.", "linkLabel": "Read the semi-formal attire guide", "linkUrl": "https://www.theknot.com/content/what-to-wear-semi-formal" },
-        { "question": "WHERE DO I PARK?", "answer": "Parking for the ceremony will be available at Treasuring Christ Church off Lake Wheeler Road. Parking for the reception will be available off Washington Street.", "linkLabel": "", "linkUrl": "" }
+        {
+          "question": "WHAT IS THE DRESS CODE?",
+          "answer": "The dress code is semi-formal! We trust y’all to wear what you want.",
+          "linkLabel": "Read the semi-formal attire guide",
+          "linkUrl": "https://www.theknot.com/content/what-to-wear-semi-formal"
+        },
+        {
+          "question": "WHERE DO I PARK?",
+          "answer": "Parking for the ceremony will be available at Treasuring Christ Church off Lake Wheeler Road. Parking for the reception will be available off Washington Street."
+        }
       ]
     },
     "travel": {
       "title": "Travel",
       "subtitle": "A place to stay",
-      "bannerImage": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1800&q=85",
       "intro": "Raleigh is part of the Research Triangle region, which includes Raleigh, Durham and Chapel Hill. The ceremony and reception are near downtown Raleigh and NC State. Here are a few nearby stays; book wherever you feel most at home.",
       "hotels": [
-        { "name": "The Longleaf Hotel", "address": "300 N Dawson St, Raleigh, NC", "phone": "", "description": "A welcoming boutique stay in downtown Raleigh, just a short walk from the Museum of Natural Sciences and the State Capitol.", "website": "https://www.thelongleafhotel.com/", "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=82" },
-        { "name": "The Casso, Raleigh", "address": "603 W Morgan St, Raleigh, NC", "phone": "", "description": "A Tribute Portfolio hotel with a restaurant, bar, complimentary bicycles and a central downtown location.", "website": "https://www.marriott.com/", "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=82" },
-        { "name": "AC Hotel Raleigh Downtown", "address": "9 Glenwood Avenue, Raleigh, NC", "phone": "", "description": "A modern downtown hotel close to the museums, State Capitol and Raleigh’s restaurants.", "website": "https://www.marriott.com/", "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Hyatt House Raleigh Downtown", "address": "11 Seaboard Ave, Raleigh, NC", "phone": "", "description": "An easygoing extended stay with a fitness center, seasonal pool and convenient downtown access.", "website": "https://www.hyatt.com/", "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Heights House Hotel", "address": "308 S Boylan Ave, Raleigh, NC", "phone": "", "description": "A distinctive boutique hotel in the Boylan Heights neighborhood.", "website": "https://heightshousenc.com/", "image": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=82" }
+        {
+          "name": "The Longleaf Hotel",
+          "address": "300 N Dawson St, Raleigh, NC",
+          "description": "A welcoming boutique stay in downtown Raleigh, just a short walk from the Museum of Natural Sciences and the State Capitol.",
+          "website": "https://www.thelongleafhotel.com/"
+        },
+        {
+          "name": "The Casso, Raleigh",
+          "address": "603 W Morgan St, Raleigh, NC",
+          "description": "A Tribute Portfolio hotel with a restaurant, bar, complimentary bicycles and a central downtown location.",
+          "website": "https://www.marriott.com/"
+        },
+        {
+          "name": "AC Hotel Raleigh Downtown",
+          "address": "9 Glenwood Avenue, Raleigh, NC",
+          "description": "A modern downtown hotel close to the museums, State Capitol and Raleigh’s restaurants.",
+          "website": "https://www.marriott.com/"
+        },
+        {
+          "name": "Hyatt House Raleigh Downtown",
+          "address": "11 Seaboard Ave, Raleigh, NC",
+          "description": "An easygoing extended stay with a fitness center, seasonal pool and convenient downtown access.",
+          "website": "https://www.hyatt.com/"
+        },
+        {
+          "name": "Heights House Hotel",
+          "address": "308 S Boylan Ave, Raleigh, NC",
+          "description": "A distinctive boutique hotel in the Boylan Heights neighborhood.",
+          "website": "https://heightshousenc.com/"
+        }
       ]
     },
     "guide": {
       "title": "R&R’s Guide to RDU",
       "subtitle": "Our favorite corners of the Triangle",
-      "bannerImage": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1800&q=85",
       "intro": "A little list of places we love around Raleigh, Durham and Chapel Hill. We hope you find something that feels like your kind of afternoon.",
       "things": [
-        { "name": "North Carolina Museum of Art", "address": "Blue Ridge Road, Raleigh, NC", "phone": "(919) 839-6262", "description": "We went on our second date here, so it has a special place in our RDU history. Admission is free, and the outdoor sculpture park and trails are well worth exploring.", "website": "https://ncartmuseum.org/", "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Carolina Ballet", "address": "Stony Brook Drive, Raleigh, NC", "phone": "(919) 719-0800", "description": "We saw The Nutcracker here last holiday season. After an incredible performance, we spent a good thirty minutes wandering through the winter cold because neither of us could remember where we parked.", "website": "https://carolinaballet.com/", "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Downtown Cary Park", "address": "South Academy Street, Cary, NC", "phone": "(919) 469-4000", "description": "A huge park in the heart of Downtown Cary. We love coming here for a walk and then heading to Sonic afterward, which may slightly undermine the health benefits.", "website": "https://downtowncarypark.com/", "image": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Cheshire Cat Antique Gallery", "address": "Clark Avenue, Raleigh, NC", "phone": "(919) 835-9595", "description": "Check out the jeweler’s counter upstairs to see where Rachel found her engagement ring. It’s enormous, labyrinthine and a little chaotic, which is exactly what makes it so much fun.", "website": "https://www.cheshirecatgallery.com/", "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=82" },
-        { "name": "North Carolina Museum of Natural Sciences", "address": "West Jones Street, Raleigh, NC", "phone": "(919) 707-9800", "description": "One of Raleigh’s best museums, and another one that’s completely free. It’s well worth visiting even when Middle-earth is not involved.", "website": "https://naturalsciences.org/", "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Dix Park", "address": "Richardson Drive, Raleigh, NC", "phone": "(919) 996-3255", "description": "Dix Park is now home to a family of five enormous trolls made from reclaimed wood and hidden throughout the park. They are well worth seeking out.", "website": "https://dixpark.org/", "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Reader’s Corner", "address": "Hillsborough Street, Raleigh, NC", "phone": "(919) 828-7024", "description": "Our favorite bookstore in Raleigh.", "website": "https://www.facebook.com/Readers-Corner-206318659400793/", "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Duke Gardens", "address": "Anderson Street, Durham, NC", "phone": "(919) 684-3698", "description": "Where Ryan popped the question! March is cherry blossom season at Duke Gardens, so keep an eye out while you’re there.", "website": "https://gardens.duke.edu/", "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Duke Chapel", "address": "Chapel Drive, Durham, NC", "phone": "(919) 681-9488", "description": "Ryan went to church here while in grad school, and we still come back often for Choral Evensong. It’s a magnificent place and a place of beauty and worship.", "website": "https://chapel.duke.edu/", "image": "https://images.unsplash.com/photo-1514896856000-91cb6de818e0?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Lake Wheeler Park", "address": "Lake Wheeler Road, Raleigh, NC", "phone": "(919) 996-6740", "description": "A beautiful lake just down the road from the church where we’re getting married. We once came here to grill hot dogs and plantains. The hot dogs went well. The plantains did not.", "website": "https://raleighnc.gov/parks/places/lake-wheeler-park", "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=82" },
-        { "name": "The Streets at Southpoint", "address": "Fayetteville Road, Durham, NC", "phone": "(919) 572-8800", "description": "Ryan is an AMC A-Lister, so this has become our movie theater of choice. A representative sampling of our combined interests.", "website": "https://www.streetsatsouthpoint.com/", "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Duke Lemur Center", "address": "Erwin Road, Durham, NC", "phone": "(919) 401-7240", "description": "Lemurs! In Duke Forest! Be sure to book a tour ahead of time.", "website": "https://lemur.duke.edu/", "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Durham Bulls Athletic Park", "address": "Blackwell Street, Durham, NC", "phone": "(919) 687-6500", "description": "The Bulls won, and the night ended with an absolutely bonkers fireworks show that seemed to be occurring six feet above our heads.", "website": "https://www.durhambulls.com/", "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Morehead Planetarium", "address": "East Franklin Street, Chapel Hill, NC", "phone": "(919) 962-1234", "description": "Rachel surprised Ryan with a trip here for his birthday. If you have time to venture over to Chapel Hill, it’s a very good place to spend an afternoon looking up.", "website": "https://moreheadplanetarium.org/", "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=900&q=82" }
+        {
+          "name": "North Carolina Museum of Art",
+          "address": "Blue Ridge Road, Raleigh, NC",
+          "phone": "(919) 839-6262",
+          "description": "We went on our second date here, so it has a special place in our RDU history. Admission is free, and the outdoor sculpture park and trails are well worth exploring.",
+          "website": "https://ncartmuseum.org/"
+        },
+        {
+          "name": "Carolina Ballet",
+          "address": "Stony Brook Drive, Raleigh, NC",
+          "phone": "(919) 719-0800",
+          "description": "We saw The Nutcracker here last holiday season. After an incredible performance, we spent a good thirty minutes wandering through the winter cold because neither of us could remember where we parked.",
+          "website": "https://carolinaballet.com/"
+        },
+        {
+          "name": "Downtown Cary Park",
+          "address": "South Academy Street, Cary, NC",
+          "phone": "(919) 469-4000",
+          "description": "A huge park in the heart of Downtown Cary. We love coming here for a walk and then heading to Sonic afterward, which may slightly undermine the health benefits.",
+          "website": "https://downtowncarypark.com/"
+        },
+        {
+          "name": "Cheshire Cat Antique Gallery",
+          "address": "Clark Avenue, Raleigh, NC",
+          "phone": "(919) 835-9595",
+          "description": "Check out the jeweler’s counter upstairs to see where Rachel found her engagement ring. It’s enormous, labyrinthine and a little chaotic, which is exactly what makes it so much fun.",
+          "website": "https://www.cheshirecatgallery.com/"
+        },
+        {
+          "name": "North Carolina Museum of Natural Sciences",
+          "address": "West Jones Street, Raleigh, NC",
+          "phone": "(919) 707-9800",
+          "description": "One of Raleigh’s best museums, and another one that’s completely free. It’s well worth visiting even when Middle-earth is not involved.",
+          "website": "https://naturalsciences.org/"
+        },
+        {
+          "name": "Dix Park",
+          "address": "Richardson Drive, Raleigh, NC",
+          "phone": "(919) 996-3255",
+          "description": "Dix Park is now home to a family of five enormous trolls made from reclaimed wood and hidden throughout the park. They are well worth seeking out.",
+          "website": "https://dixpark.org/"
+        },
+        {
+          "name": "Reader’s Corner",
+          "address": "Hillsborough Street, Raleigh, NC",
+          "phone": "(919) 828-7024",
+          "description": "Our favorite bookstore in Raleigh.",
+          "website": "https://www.facebook.com/Readers-Corner-206318659400793/"
+        },
+        {
+          "name": "Duke Gardens",
+          "address": "Anderson Street, Durham, NC",
+          "phone": "(919) 684-3698",
+          "description": "Where Ryan popped the question! March is cherry blossom season at Duke Gardens, so keep an eye out while you’re there.",
+          "website": "https://gardens.duke.edu/"
+        },
+        {
+          "name": "Duke Chapel",
+          "address": "Chapel Drive, Durham, NC",
+          "phone": "(919) 681-9488",
+          "description": "Ryan went to church here while in grad school, and we still come back often for Choral Evensong. It’s a magnificent place and a place of beauty and worship.",
+          "website": "https://chapel.duke.edu/"
+        },
+        {
+          "name": "Lake Wheeler Park",
+          "address": "Lake Wheeler Road, Raleigh, NC",
+          "phone": "(919) 996-6740",
+          "description": "A beautiful lake just down the road from the church where we’re getting married. We once came here to grill hot dogs and plantains. The hot dogs went well. The plantains did not.",
+          "website": "https://raleighnc.gov/parks/places/lake-wheeler-park"
+        },
+        {
+          "name": "The Streets at Southpoint",
+          "address": "Fayetteville Road, Durham, NC",
+          "phone": "(919) 572-8800",
+          "description": "Ryan is an AMC A-Lister, so this has become our movie theater of choice. A representative sampling of our combined interests.",
+          "website": "https://www.streetsatsouthpoint.com/"
+        },
+        {
+          "name": "Duke Lemur Center",
+          "address": "Erwin Road, Durham, NC",
+          "phone": "(919) 401-7240",
+          "description": "Lemurs! In Duke Forest! Be sure to book a tour ahead of time.",
+          "website": "https://lemur.duke.edu/"
+        },
+        {
+          "name": "Durham Bulls Athletic Park",
+          "address": "Blackwell Street, Durham, NC",
+          "phone": "(919) 687-6500",
+          "description": "The Bulls won, and the night ended with an absolutely bonkers fireworks show that seemed to be occurring six feet above our heads.",
+          "website": "https://www.durhambulls.com/"
+        },
+        {
+          "name": "Morehead Planetarium",
+          "address": "East Franklin Street, Chapel Hill, NC",
+          "phone": "(919) 962-1234",
+          "description": "Rachel surprised Ryan with a trip here for his birthday. If you have time to venture over to Chapel Hill, it’s a very good place to spend an afternoon looking up.",
+          "website": "https://moreheadplanetarium.org/"
+        }
       ],
       "restaurants": [
-        { "name": "Rebus Works", "address": "Kinsey Street, Raleigh, NC", "phone": "(919) 754-8452", "description": "A little cafe and market in Boylan Heights, one of our favorite Raleigh neighborhoods.", "website": "https://rebusworks.us/", "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Gravy", "address": "South Wilmington Street, Raleigh, NC", "phone": "(919) 896-8518", "description": "Where we had our first date! A cozy Italian restaurant in downtown Raleigh and one of our sentimental favorites.", "website": "https://gravyraleigh.com/", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Boulted Bread", "address": "Dupont Circle, Raleigh, NC", "phone": "", "description": "Our pick for the best bakery in Raleigh. Go early!", "website": "https://boultedbread.com/", "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=82" },
-        { "name": "The Foxhole at Gussie’s", "address": "West Morgan Street, Raleigh, NC", "phone": "(919) 307-4459", "description": "Rachel’s neighborhood coffee shop, just down the street from her apartment.", "website": "https://gussiesraleigh.com/", "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Cheeni", "address": "Corcoran Street, Durham, NC", "phone": "(919) 908-0220", "description": "One of our favorite restaurants in Durham and the site of what we both agree is probably the best meal we’ve had together.", "website": "https://cheeni-durham-rtp.squarespace.com/", "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=82" },
-        { "name": "Habibi Grill & Bakery", "address": "Method Road, Raleigh, NC", "phone": "(919) 615-4824", "description": "A tiny Yemeni restaurant that we love. Get the lentil soup.", "website": "https://habibigrill.com/", "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82" }
+        {
+          "name": "Rebus Works",
+          "address": "Kinsey Street, Raleigh, NC",
+          "phone": "(919) 754-8452",
+          "description": "A little cafe and market in Boylan Heights, one of our favorite Raleigh neighborhoods.",
+          "website": "https://rebusworks.us/"
+        },
+        {
+          "name": "Gravy",
+          "address": "South Wilmington Street, Raleigh, NC",
+          "phone": "(919) 896-8518",
+          "description": "Where we had our first date! A cozy Italian restaurant in downtown Raleigh and one of our sentimental favorites.",
+          "website": "https://gravyraleigh.com/"
+        },
+        {
+          "name": "Boulted Bread",
+          "address": "Dupont Circle, Raleigh, NC",
+          "description": "Our pick for the best bakery in Raleigh. Go early!",
+          "website": "https://boultedbread.com/"
+        },
+        {
+          "name": "The Foxhole at Gussie’s",
+          "address": "West Morgan Street, Raleigh, NC",
+          "phone": "(919) 307-4459",
+          "description": "Rachel’s neighborhood coffee shop, just down the street from her apartment.",
+          "website": "https://gussiesraleigh.com/"
+        },
+        {
+          "name": "Cheeni",
+          "address": "Corcoran Street, Durham, NC",
+          "phone": "(919) 908-0220",
+          "description": "One of our favorite restaurants in Durham and the site of what we both agree is probably the best meal we’ve had together.",
+          "website": "https://cheeni-durham-rtp.squarespace.com/"
+        },
+        {
+          "name": "Habibi Grill & Bakery",
+          "address": "Method Road, Raleigh, NC",
+          "phone": "(919) 615-4824",
+          "description": "A tiny Yemeni restaurant that we love. Get the lentil soup.",
+          "website": "https://habibigrill.com/"
+        }
       ]
     }
   }
