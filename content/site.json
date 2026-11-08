@@ -4,13 +4,14 @@
     "date": "2027-03-13",
     "city": "Raleigh, North Carolina",
     "rsvpUrl": "https://www.rsvpify.com/",
-    "registryUrl": "https://withjoy.com/",
+    "registryUrl": "https://www.theknot.com/us/rachel-baldauf-and-ryan-parker-2027-03-13/registry",
     "logoAlt": "Wedding logo",
     "colors": {
       "sage": "#BDD99F",
       "peach": "#DE8E65",
       "leaf": "#87A96B"
-    }
+    },
+    "logoImage": "media/site/Logo-1.png"
   },
   "home": {
     "backgroundImage": "media/site/images-2.jpg",
