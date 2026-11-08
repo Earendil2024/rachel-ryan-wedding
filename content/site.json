@@ -59,11 +59,12 @@
     },
     "travel": {
       "title": "Travel",
-      "subtitle": "A place to stay",
+      "subtitle": "A place to stay in Raleigh/Durham",
       "imageBannerPhotos": [
         "media/site/eventbrite.webp",
         "media/site/vacation.jpg",
-        "media/site/lms.webp"
+        "media/site/lms.webp",
+        "media/site/7i48295d12rf1.jpeg"
       ],
       "intro": "Raleigh is part of the Research Triangle region, which includes Raleigh, Durham and Chapel Hill. The ceremony and reception are near downtown Raleigh and NC State. Here are a few nearby stays; book wherever you feel most at home.",
       "hotels": [
@@ -215,34 +216,39 @@
           "address": "Kinsey Street, Raleigh, NC",
           "phone": "(919) 754-8452",
           "description": "A little cafe and market in Boylan Heights, one of our favorite Raleigh neighborhoods.",
-          "website": "https://rebusworks.us/"
+          "website": "https://rebusworks.us/",
+          "image": "media/site/Screenshot 2026-11-08 172458.png"
         },
         {
           "name": "Gravy",
           "address": "South Wilmington Street, Raleigh, NC",
           "phone": "(919) 896-8518",
           "description": "Where we had our first date! A cozy Italian restaurant in downtown Raleigh and one of our sentimental favorites.",
-          "website": "https://gravyraleigh.com/"
+          "website": "https://gravyraleigh.com/",
+          "image": "media/site/Screenshot 2026-11-08 172417.png"
         },
         {
           "name": "Boulted Bread",
           "address": "Dupont Circle, Raleigh, NC",
           "description": "Our pick for the best bakery in Raleigh. Go early!",
-          "website": "https://boultedbread.com/"
+          "website": "https://boultedbread.com/",
+          "image": "media/site/Screenshot 2026-11-08 172337.png"
         },
         {
           "name": "The Foxhole at Gussie’s",
           "address": "West Morgan Street, Raleigh, NC",
           "phone": "(919) 307-4459",
           "description": "Rachel’s neighborhood coffee shop, just down the street from her apartment.",
-          "website": "https://gussiesraleigh.com/"
+          "website": "https://gussiesraleigh.com/",
+          "image": "media/site/Screenshot 2026-11-08 172257.png"
         },
         {
           "name": "Cheeni",
           "address": "Corcoran Street, Durham, NC",
           "phone": "(919) 908-0220",
           "description": "One of our favorite restaurants in Durham and the site of what we both agree is probably the best meal we’ve had together.",
-          "website": "https://cheeni-durham-rtp.squarespace.com/"
+          "website": "https://cheeni-durham-rtp.squarespace.com/",
+          "image": "media/site/Screenshot 2026-11-08 172143.png"
         },
         {
           "name": "Habibi Grill & Bakery",
