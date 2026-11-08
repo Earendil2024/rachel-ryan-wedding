@@ -29,4 +29,5 @@ Then visit `http://localhost:8000`.
 - The RDU Guide cards use portrait photo crops. Venue photos use landscape crops.
 - The wedding colors are editable in CMS and default to `#BDD99F`, `#DE8E65`, and `#87A96B`.
 - The Anglican Text and Junicode fonts are bundled locally. Anglican Text is free for private use; its designer requests a commercial-use license for commercial projects. See `assets/fonts/ANGLICAN-FONT-NOTICE.txt`. Junicode’s SIL Open Font License is included beside its font files.
-- The example Unsplash photos need an internet connection. CMS uploaded photos are committed into the repository.
+- All photo fields start blank with labeled spaces. Add your images through the Pages CMS image fields; uploaded photos are committed into the repository.
+

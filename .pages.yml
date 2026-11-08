@@ -22,17 +22,6 @@ components:
       - name: time
         label: Time
         type: string
-  person:
-    type: object
-    label: Wedding party member
-    fields:
-      - name: name
-        type: string
-      - name: role
-        type: string
-      - name: note
-        label: Short note
-        type: text
   question:
     type: object
     label: Question and answer
@@ -170,35 +159,6 @@ content:
         label: Other pages
         type: object
         fields:
-          - name: party
-            label: Wedding Party
-            type: object
-            fields:
-              - name: title
-                type: string
-              - name: subtitle
-                type: string
-              - name: bannerImage
-                label: Sage-tinted banner photo
-                type: image
-                options:
-                  media: images
-              - name: intro
-                type: text
-              - name: people
-                label: Wedding party members
-                type: object
-                list:
-                  collapsible:
-                    collapsed: true
-                    summary: "{name} — {role}"
-                fields:
-                  - name: name
-                    type: string
-                  - name: role
-                    type: string
-                  - name: note
-                    type: text
           - name: qa
             label: Q + A
             type: object
@@ -341,4 +301,6 @@ settings:
   commit:
     templates:
       update: "Update wedding website content"
+
+
 
