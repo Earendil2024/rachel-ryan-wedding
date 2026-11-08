@@ -122,98 +122,112 @@
           "address": "Blue Ridge Road, Raleigh, NC",
           "phone": "(919) 839-6262",
           "description": "We went on our second date here, so it has a special place in our RDU history. Admission is free, and the outdoor sculpture park and trails are well worth exploring.",
-          "website": "https://ncartmuseum.org/"
+          "website": "https://ncartmuseum.org/",
+          "image": "media/site/Screenshot 2026-11-08 174007.png"
         },
         {
           "name": "Carolina Ballet",
           "address": "Stony Brook Drive, Raleigh, NC",
           "phone": "(919) 719-0800",
           "description": "We saw The Nutcracker here last holiday season. After an incredible performance, we spent a good thirty minutes wandering through the winter cold because neither of us could remember where we parked.",
-          "website": "https://carolinaballet.com/"
+          "website": "https://carolinaballet.com/",
+          "image": "media/site/Screenshot 2026-11-08 174017.png"
         },
         {
           "name": "Downtown Cary Park",
           "address": "South Academy Street, Cary, NC",
           "phone": "(919) 469-4000",
           "description": "A huge park in the heart of Downtown Cary. We love coming here for a walk and then heading to Sonic afterward, which may slightly undermine the health benefits.",
-          "website": "https://downtowncarypark.com/"
+          "website": "https://downtowncarypark.com/",
+          "image": "media/site/Screenshot 2026-11-08 174033.png"
         },
         {
           "name": "Cheshire Cat Antique Gallery",
           "address": "Clark Avenue, Raleigh, NC",
           "phone": "(919) 835-9595",
           "description": "Check out the jeweler’s counter upstairs to see where Rachel found her engagement ring. It’s enormous, labyrinthine and a little chaotic, which is exactly what makes it so much fun.",
-          "website": "https://www.cheshirecatgallery.com/"
+          "website": "https://www.cheshirecatgallery.com/",
+          "image": "media/site/Screenshot 2026-11-08 174044.png"
         },
         {
           "name": "North Carolina Museum of Natural Sciences",
           "address": "West Jones Street, Raleigh, NC",
           "phone": "(919) 707-9800",
           "description": "One of Raleigh’s best museums, and another one that’s completely free. It’s well worth visiting even when Middle-earth is not involved.",
-          "website": "https://naturalsciences.org/"
+          "website": "https://naturalsciences.org/",
+          "image": "media/site/Screenshot 2026-11-08 174057.png"
         },
         {
           "name": "Dix Park",
           "address": "Richardson Drive, Raleigh, NC",
           "phone": "(919) 996-3255",
           "description": "Dix Park is now home to a family of five enormous trolls made from reclaimed wood and hidden throughout the park. They are well worth seeking out.",
-          "website": "https://dixpark.org/"
+          "website": "https://dixpark.org/",
+          "image": "media/site/Screenshot 2026-11-08 174639.png"
         },
         {
           "name": "Reader’s Corner",
           "address": "Hillsborough Street, Raleigh, NC",
           "phone": "(919) 828-7024",
           "description": "Our favorite bookstore in Raleigh.",
-          "website": "https://www.facebook.com/Readers-Corner-206318659400793/"
+          "website": "https://www.facebook.com/Readers-Corner-206318659400793/",
+          "image": "media/site/Screenshot 2026-11-08 174557.png"
         },
         {
           "name": "Duke Gardens",
           "address": "Anderson Street, Durham, NC",
           "phone": "(919) 684-3698",
           "description": "Where Ryan popped the question! March is cherry blossom season at Duke Gardens, so keep an eye out while you’re there.",
-          "website": "https://gardens.duke.edu/"
+          "website": "https://gardens.duke.edu/",
+          "image": "media/site/Screenshot 2026-11-08 174112.png"
         },
         {
           "name": "Duke Chapel",
           "address": "Chapel Drive, Durham, NC",
           "phone": "(919) 681-9488",
           "description": "Ryan went to church here while in grad school, and we still come back often for Choral Evensong. It’s a magnificent place and a place of beauty and worship.",
-          "website": "https://chapel.duke.edu/"
+          "website": "https://chapel.duke.edu/",
+          "image": "media/site/Screenshot 2026-11-08 174126.png"
         },
         {
           "name": "Lake Wheeler Park",
           "address": "Lake Wheeler Road, Raleigh, NC",
           "phone": "(919) 996-6740",
           "description": "A beautiful lake just down the road from the church where we’re getting married. We once came here to grill hot dogs and plantains. The hot dogs went well. The plantains did not.",
-          "website": "https://raleighnc.gov/parks/places/lake-wheeler-park"
+          "website": "https://raleighnc.gov/parks/places/lake-wheeler-park",
+          "image": "media/site/Screenshot 2026-11-08 174139.png"
         },
         {
           "name": "The Streets at Southpoint",
           "address": "Fayetteville Road, Durham, NC",
           "phone": "(919) 572-8800",
           "description": "Ryan is an AMC A-Lister, so this has become our movie theater of choice. A representative sampling of our combined interests.",
-          "website": "https://www.streetsatsouthpoint.com/"
+          "website": "https://www.streetsatsouthpoint.com/",
+          "image": "media/site/Screenshot 2026-11-08 174150.png"
         },
         {
           "name": "Duke Lemur Center",
           "address": "Erwin Road, Durham, NC",
           "phone": "(919) 401-7240",
           "description": "Lemurs! In Duke Forest! Be sure to book a tour ahead of time.",
-          "website": "https://lemur.duke.edu/"
+          "website": "https://lemur.duke.edu/",
+          "image": "media/site/Screenshot 2026-11-08 174202.png"
         },
         {
           "name": "Durham Bulls Athletic Park",
           "address": "Blackwell Street, Durham, NC",
           "phone": "(919) 687-6500",
           "description": "The Bulls won, and the night ended with an absolutely bonkers fireworks show that seemed to be occurring six feet above our heads.",
-          "website": "https://www.durhambulls.com/"
+          "website": "https://www.durhambulls.com/",
+          "image": "media/site/Screenshot 2026-11-08 174214.png"
         },
         {
           "name": "Morehead Planetarium",
           "address": "East Franklin Street, Chapel Hill, NC",
           "phone": "(919) 962-1234",
           "description": "Rachel surprised Ryan with a trip here for his birthday. If you have time to venture over to Chapel Hill, it’s a very good place to spend an afternoon looking up.",
-          "website": "https://moreheadplanetarium.org/"
+          "website": "https://moreheadplanetarium.org/",
+          "image": "media/site/Screenshot 2026-11-08 174226.png"
         }
       ],
       "restaurants": [
