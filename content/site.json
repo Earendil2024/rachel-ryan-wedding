@@ -45,13 +45,13 @@
       "subtitle": "A few helpful details",
       "items": [
         {
-          "question": "WHAT IS THE DRESS CODE?",
+          "question": "What is the dress code?",
           "answer": "The dress code is semi-formal! We trust y’all to wear what you want.",
           "linkLabel": "Read the semi-formal attire guide",
           "linkUrl": "https://www.theknot.com/content/what-to-wear-semi-formal"
         },
         {
-          "question": "WHERE DO I PARK?",
+          "question": "Where do I park?",
           "answer": "Parking for the ceremony will be available at Treasuring Christ Church off Lake Wheeler Road. Parking for the reception will be available off Washington Street.\n\nYou can find a Google Maps link to the parking lot for The Borden Building here.",
           "linkLabel": "Link to Borden Building Parking",
           "linkUrl": "https://maps.app.goo.gl/QRgESdFgFLq8FfHUA"
