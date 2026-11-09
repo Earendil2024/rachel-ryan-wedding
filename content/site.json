@@ -10,7 +10,8 @@
       "peach": "#DE8E65",
       "leaf": "#87A96B"
     },
-    "logoImage": "media/site/Logo-1.png"
+    "logoImage": "media/site/Logo-1.png",
+    "rsvpUrl": "https://docs.google.com/forms/d/e/1FAIpQLSebBvz6XyysOZzkDleVtAVekRR_oNjfETYbYKOPEKX2qQlmxA/viewform"
   },
   "home": {
     "backgroundImage": "media/site/images-2.jpg",
